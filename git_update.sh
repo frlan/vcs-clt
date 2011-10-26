@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-#  update_git.sh
+#  git_update.sh
 #
 #  Copyright 2009-2011 Frank Lanitz <frank(at)frank(dot)uvena(dot)de>
 #
