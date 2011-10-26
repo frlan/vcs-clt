@@ -1,3 +1,5 @@
+#!/bin/sh
+#
 #  hg_update.sh
 #
 #  Copyright 2011 Frank Lanitz <frank(at)frank(dot)uvena(dot)de>
