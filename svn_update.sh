@@ -19,11 +19,11 @@
 #  Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
 #  MA 02110-1301, USA.
 
-pfad=/daten/quellen/svn/
+path=$1
 
-echo "Update von"
+echo "Update started at"
 date
-for i in $(ls $pfad)
+for i in $(ls $path)
 do
   echo $i
   cd $pfad$i
