@@ -25,9 +25,10 @@
 
 set -e
 
-cd /daten/quellen/
+path=$1
 
-for i in git/*; do
+for i in $(ls $pfad)
+do
     [ -e "$i/.git" ] || continue
     if grep --quiet svn-remote "$i/.git/config"; then
         (cd "$i"; git svn fetch; git gc --quiet) &
