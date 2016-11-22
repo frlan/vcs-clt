@@ -43,7 +43,7 @@ do
         then
             (cd "$i"; git svn fetch; git gc --quiet)
         elif [ -d "$i/.git/refs/remotes/origin" ]; then
-            (cd "$i"; git fetch --all; git gc --quiet)
+            (cd "$i"; git fetch --all --tags --prune; git gc --quiet)
         fi
     fi
 
